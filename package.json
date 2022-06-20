@@ -1,0 +1,23 @@
+{
+  "name": "fahrgastrechte-js",
+  "version": "1.0.0",
+  "description": "A nodejs library to modify the template of the fahrgastrechte form.",
+  "main": "dist/src/index.js",
+  "author": "AdriDevelopsThings",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "private": false,
+  "dependencies": {
+    "fill-pdf": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/fill-pdf": "^0.5.2",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "./@types/index.d.ts",
+  "files": ["dist/**/*", "@types/index.d.ts"]
+}
