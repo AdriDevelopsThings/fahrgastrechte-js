@@ -2,6 +2,10 @@
 A nodejs library to modify the template of the fahrgastrechte form (PDF).
 
 ## Installation
+``npm install fahrgastrechte-js``
+
+or
+
 ``yarn add fahrgastrechte-js``
 
 ## How to use?
