@@ -49,7 +49,7 @@ type BahnFahrgastrechteData = {
         greeting: Greeting, // 'Herr' or 'Frau'
         title?: string, // e.g. Dr. or Prof.
         company?: string,
-        name: FirstnameLastname, // { train_type: 'ICE', train_number: 879 }
+        name: FirstnameLastname, // { firstname: '', lastname: '' }
         address_addition?: string,
         telephone_number?: TelephoneNumber, // string
         street: string,
