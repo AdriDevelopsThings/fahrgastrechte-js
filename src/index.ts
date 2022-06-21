@@ -163,7 +163,7 @@ export const modifyPdf = (templatePdf: string, data: BahnFahrgastrechteData): Pr
         parsedForm[fields[key].name] = value
     }
 
-    return new Promise((resolve, reject){
+    return new Promise((resolve, reject) => {
         fillPdf.generatePdf(parsedForm, templatePdf, [], (err: Error, output: Buffer) => {
             if (err) {
                 reject(err)
